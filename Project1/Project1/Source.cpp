@@ -3,8 +3,6 @@
 #include <string>
 using namespace std;
 const int SIZE = 10;
-int number1 = 0, number2 = 0;
-
 struct English
 {
 	int Num1;
@@ -61,18 +59,20 @@ Russian search2(string x, Russian baza1[])
 			Show2(baza1[i].Num2);
 	}
 }
-void Show1(English baza[].Num1)
+void Show1(int num1)
 {
 	for (int i = 0; i < SIZE; i++)
 	{
-
+		if (num1 == baza1[i].Num2)
+			cout << "Перевод: " << baza[i].Word1 << endl;
 	}
 }
-void Show2(Russian baza1[].Num2)
+void Show2(int num2)
 {
 	for (int i = 0; i < SIZE; i++)
 	{
-
+		if (num2 == baza[i].Num1)
+			cout << "Перевод: " << baza1[i].Word2 << endl;
 	}
 }
 void main()
@@ -83,11 +83,12 @@ void main()
 	if (menu == 1) {
 		string x;
 		cout <<  "Введите слово: "; cin >> x;
-
+		search1(x, baza);
 	}
 	if (menu == 1) {
 		string x;
 		cout << "Введите слово: "; cin >> x;
+		search2(x, baza1);
 	}
 
 
