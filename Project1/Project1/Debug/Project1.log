@@ -1,4 +1,3 @@
 ﻿  Source.cpp
-D:\Безушкевич\Per\Perevodchik\Project1\Project1\Source.cpp(51,4): error C3861: Show1: идентификатор не найден
-D:\Безушкевич\Per\Perevodchik\Project1\Project1\Source.cpp(59,4): error C3861: Show2: идентификатор не найден
-D:\Безушкевич\Per\Perevodchik\Project1\Project1\Source.cpp(79,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\с++\Perevodchik\Project1\Project1\Source.cpp(85,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Project1.vcxproj -> D:\с++\Perevodchik\Project1\Debug\Perevodchik.exe
